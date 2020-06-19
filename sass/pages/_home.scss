@@ -1,0 +1,38 @@
+.body {
+    &__search-box {
+        padding: 50px 40px;
+        width: calc((100%) / 1.68);
+        box-shadow: 0 1rem 1.8rem rgba($color-black, 0.2);
+        background-color: $color-white;
+        position: absolute;
+        border-radius: 5.5px;
+        top: 57%;
+        left: 20%;
+    }
+}
+
+.section-featured-sales {
+    max-width: 114rem;
+    margin: 0 auto;
+    background-color: $color-white;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.section-featured-rent {
+    max-width: 114rem;
+    margin: 0 auto;
+    background-color: $color-white;
+    padding: 1.5rem;
+}
+
+.section-exclusive {
+    background-color: #ddd;
+    padding: 2rem;
+}
+
+.section-perfect {
+    background-color: $color-primary;
+    padding: 2rem;
+}
