@@ -45,14 +45,24 @@
         text-transform: uppercase;
         font-family: inherit;
         font-size: $default-font-size;
+        cursor: pointer;
     }
     &--black {
         background-color: $color-black;
         color: $color-white;
+        transition: .2s;
+        &:hover {
+            background-color: transparent;
+            color: $color-black;
+        }
     }
     &--outline-black {
         margin-right: 6rem;
         background-color: transparent;
         color: $color-black;
+        &:hover {
+            background-color: $color-black;
+            color: $color-white;
+        }
     }
 }

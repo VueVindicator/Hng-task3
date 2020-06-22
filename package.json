@@ -6,14 +6,13 @@
   "homepage": "https://vuevindicator.github.io/hng-task3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "deploy": "gh-pages -d build",
     "gh-pages": "^3.0.0",
-    "node-sass": "^4.14.1",
-    "predeploy": "yarn build"
+    "node-sass": "^4.14.1"
   }
 }

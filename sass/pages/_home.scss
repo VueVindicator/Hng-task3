@@ -23,6 +23,7 @@
 .section-featured-rent {
     max-width: 114rem;
     margin: 0 auto;
+    margin-bottom: 4rem;
     background-color: $color-white;
     padding: 1.5rem;
 }
@@ -30,9 +31,40 @@
 .section-exclusive {
     background-color: #ddd;
     padding: 2rem;
+    padding-bottom: 10rem;
+}
+
+.section-agents {
+    background-color: $color-white;
+    padding: 2rem;
+    padding-bottom: 10rem;
 }
 
 .section-perfect {
     background-color: $color-primary;
     padding: 2rem;
+    padding-bottom: 8rem;
+}
+.section-news {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+}
+.section-footer {
+    padding-top: 6rem;
+    & h2 {
+        padding-bottom: 2rem;
+    }
+    & ul li, & p {
+        font-size: 1.5rem;
+        list-style: none;
+        padding-bottom: 1rem;
+        & a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    & .base {
+        padding-bottom: 4rem;
+    }
 }
